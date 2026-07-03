@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "title": "Chat Master",
+    "companyName": "TechNova",
+    "image": "/public/image/demo-app1.png",
+    "description": "A fast and secure messaging app for instant communication.",
+    "size": 45,
+    "reviews": 25430,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 860 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 17010 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Fit Life",
+    "companyName": "HealthX",
+    "image": "/public/image/demo-app2.png",
+    "description": "Track your workouts, calories, and daily fitness goals.",
+    "size": 68,
+    "reviews": 18900,
+    "ratingAvg": 4.5,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 1040 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Music Wave",
+    "companyName": "SoundLab",
+    "image": "public/image/demo-app3.png",
+    "description": "Enjoy millions of songs and create your own playlists.",
+    "size": 82,
+    "reviews": 31000,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 20320 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Photo Studio",
+    "companyName": "PixelSoft",
+    "image": "/public/image/demo-app4.png",
+    "description": "Edit photos with powerful filters and AI tools.",
+    "size": 95,
+    "reviews": 27800,
+    "ratingAvg": 4.6,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 8200 },
+      { "name": "5 star", "count": 17830 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Weather Now",
+    "companyName": "SkyTech",
+    "image": "/public/image/demo-app5.png",
+    "description": "Real-time weather forecasts with hourly updates.",
+    "size": 38,
+    "reviews": 14500,
+    "ratingAvg": 4.4,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 8220 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Food Express",
+    "companyName": "QuickBite",
+    "image": "/public/image/demo-app6.png",
+    "description": "Order delicious meals from nearby restaurants.",
+    "size": 72,
+    "reviews": 33400,
+    "ratingAvg": 4.7,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 390 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 21670 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Movie Box",
+    "companyName": "CinemaHub",
+    "image": "/public/image/demo-app1.png",
+    "description": "Watch trending movies and TV series online.",
+    "size": 110,
+    "reviews": 40200,
+    "ratingAvg": 4.8,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 25950 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Travel Mate",
+    "companyName": "JourneyPro",
+    "image": "/public/image/demo-app6.png",
+    "description": "Book hotels, flights, and explore new destinations.",
+    "size": 88,
+    "reviews": 16800,
+    "ratingAvg": 4.5,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 170 },
+      { "name": "2 star", "count": 290 },
+      { "name": "3 star", "count": 890 },
+      { "name": "4 star", "count": 5700 },
+      { "name": "5 star", "count": 9750 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Learn Plus",
+    "companyName": "EduSpark",
+    "image": "/public/image/demo-app6.png",
+    "description": "Learn programming, design, and business skills.",
+    "size": 76,
+    "reviews": 21000,
+    "ratingAvg": 4.9,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 15360 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Safe Vault",
+    "companyName": "SecureApps",
+    "image": "/public/image/demo-app6.png",
+    "description": "Protect your files, photos, and passwords securely.",
+    "size": 55,
+    "reviews": 9700,
+    "ratingAvg": 4.3,
+    "downloads": 720000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 5160 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Game Arena",
+    "companyName": "PlayZone",
+    "image": "/public/image/demo-app6.png",
+    "description": "Play exciting multiplayer games with friends.",
+    "size": 150,
+    "reviews": 45800,
+    "ratingAvg": 4.8,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 13800 },
+      { "name": "5 star", "count": 29330 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Notes Keeper",
+    "companyName": "DailySoft",
+    "image": "/public/image/demo-app6.png",
+    "description": "Create notes, reminders, and organize your daily tasks.",
+    "size": 28,
+    "reviews": 11200,
+    "ratingAvg": 4.6,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 760 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 5910 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Code Studio",
+    "companyName": "DevCore",
+    "image": "/public/image/demo-app6.png",
+    "description": "Learn coding with interactive lessons and real-world projects.",
+    "size": 84,
+    "reviews": 22350,
+    "ratingAvg": 4.8,
+    "downloads": 1750000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 910 },
+      { "name": "4 star", "count": 6900 },
+      { "name": "5 star", "count": 14160 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Pocket Wallet",
+    "companyName": "PayFlow",
+    "image": "/public/image/demo-app6.png",
+    "description": "Manage your money, payments, and savings with ease.",
+    "size": 59,
+    "reviews": 16480,
+    "ratingAvg": 4.6,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 270 },
+      { "name": "3 star", "count": 820 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 10040 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "News Flash",
+    "companyName": "MediaHub",
+    "image": "/public/image/demo-app6.png",
+    "description": "Stay updated with breaking news from around the world.",
+    "size": 42,
+    "reviews": 14360,
+    "ratingAvg": 4.4,
+    "downloads": 860000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 970 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 8320 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Task Planner",
+    "companyName": "SmartWorks",
+    "image": "/public/image/demo-app6.png",
+    "description": "Organize your daily tasks and increase productivity.",
+    "size": 36,
+    "reviews": 11840,
+    "ratingAvg": 4.7,
+    "downloads": 790000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 3900 },
+      { "name": "5 star", "count": 6950 }
+    ]
+  }
+]
