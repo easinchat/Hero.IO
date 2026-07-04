@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import SingleAll from "./SingleAll";
+import ErrorPage from "./ErrorPage";
 
 const Apps = () => {
   const appData = useLoaderData();
-  console.log(appData);
+  const [search, setSearch] = useState("");
+
+  const searchHandler = (e) => {
+    e.preventDefault();
+    const value = e.target.value;
+    // console.log(value);
+    setSearch(value);
+  };
+  const filterApps = appData.filter((app) =>
+    app.title.toLowerCase().includes(search.toLowerCase()),
+  );
+  console.log(filterApps);
   return (
     <div className="justify-center items-center mx-auto w-7xl">
       <div className="text-center mt-20">
@@ -20,15 +32,21 @@ const Apps = () => {
             type="search"
             name=""
             id=""
-            placeholder="search"
+            value={search}
+            onChange={searchHandler}
+            placeholder="Search"
           />
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-10">
-        {appData.map((data) => (
-          <SingleAll key={data.id} data={data}></SingleAll>
-        ))}
-      </div>
+      {filterApps.length > 0 ? (
+        <div className="grid grid-cols-4 gap-10">
+          {filterApps.map((data) => (
+            <SingleAll key={data.id} data={data}></SingleAll>
+          ))}
+        </div>
+      ) : (
+        <ErrorPage></ErrorPage>
+      )}
     </div>
   );
 };
